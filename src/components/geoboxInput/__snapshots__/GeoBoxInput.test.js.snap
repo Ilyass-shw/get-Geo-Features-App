@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeaturesCard should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvtL ilFTvE"
+  >
+    <label
+      class="sc-dkPtRN hixtpS"
+      for="randomName"
+    >
+      randomName
+    </label>
+    <input
+      class="sc-gsDKAQ edMpyo"
+      data-testid="randomName"
+      step="any"
+      type="number"
+    />
+  </div>
+  <p
+    class="sc-hKwDye uccYi"
+  />
+</DocumentFragment>
+`;

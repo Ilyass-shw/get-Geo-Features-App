@@ -1,44 +1,67 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Go Features Application :rocket:
 
-## Available Scripts
 
-In the project directory, you can run:
+![Screenshot](Screenshot.png)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This coding challenge consists of a single page web application that:
+- Fetches osm data of a location given with the coordinates as (geolocation box)
+- Converts the data into GeoJSON
+- Displays the dataset on a map
+- Code Quality
+- Mocking and Data Validation
+- Unite testing
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[Checkout the demo](https://coding--challenge.herokuapp.com/)
 
-### `npm test`
+## Technologies used
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React v17.0.1
+- Redux v4.0.5
+- React-redux v7.2.2
+- Redux-thunk v2.3.0
+- Redux-devtools-extension v2.13.8
+- Tailwindcss v1.9.6
+- React-icons v4.2.0
+- Uuid: v8.3.2
+- Express v4.17.1
+- Axios v0.21.1
+- Leaflet v1.7.1
+- React-leaflet v3.1.0
+- Geojson-flip v1.0.0
+- Osmtogeojson v3.0.0-beta.4
+- Concurrently v6.0.2
+- Nodemon v2.0.7
 
-### `npm run build`
+## Setup :hammer_and_wrench:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the app locally, clone the repo and install the app using:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+  $ git clone https://github.com/guarmo/coding-challenge.git
+  $ cd coding-challenge
+  $ cd client
+  $ npm install
+  $ cd ..
+  $ npm install
+  $ npm run dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributors :sparkler:
 
-### `npm run eject`
+This project is designed and developed by [Armando Guarino](https://armandoguarino.dev)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Contributing
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Thanks for your interest in contributing! There are many ways to contribute to this project. Get [started here](CONTRIBUTING.md).
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Wishlist:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Implement backend validation on routes
+- Improve GUI
+- Add further Unite Testing
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is open source and available under the [MIT License](LICENSE.md).

@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GeoBoxForm should match snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="sc-eCImPb iuTmwm"
+  >
+    <div
+      class="sc-jRQBWg egnJmN"
+    >
+      <div
+        class="sc-gKclnd"
+      >
+        <div
+          class="sc-bdvvtL ilFTvE"
+        >
+          <label
+            class="sc-dkPtRN hixtpS"
+            for="left"
+          >
+            left
+          </label>
+          <input
+            class="sc-gsDKAQ edMpyo"
+            data-testid="left"
+            name="left"
+            step="any"
+            type="number"
+          />
+        </div>
+        <p
+          class="sc-hKwDye uccYi"
+        />
+        <div
+          class="sc-bdvvtL ilFTvE"
+        >
+          <label
+            class="sc-dkPtRN hixtpS"
+            for="bottom"
+          >
+            bottom
+          </label>
+          <input
+            class="sc-gsDKAQ edMpyo"
+            data-testid="bottom"
+            name="bottom"
+            step="any"
+            type="number"
+          />
+        </div>
+        <p
+          class="sc-hKwDye uccYi"
+        />
+      </div>
+      <div
+        class="sc-iCfMLu"
+      >
+        <div
+          class="sc-bdvvtL ilFTvE"
+        >
+          <label
+            class="sc-dkPtRN hixtpS"
+            for="right"
+          >
+            right
+          </label>
+          <input
+            class="sc-gsDKAQ edMpyo"
+            data-testid="right"
+            name="right"
+            step="any"
+            type="number"
+          />
+        </div>
+        <p
+          class="sc-hKwDye uccYi"
+        />
+        <div
+          class="sc-bdvvtL ilFTvE"
+        >
+          <label
+            class="sc-dkPtRN hixtpS"
+            for="top"
+          >
+            top
+          </label>
+          <input
+            class="sc-gsDKAQ edMpyo"
+            data-testid="top"
+            name="top"
+            step="any"
+            type="number"
+          />
+        </div>
+        <p
+          class="sc-hKwDye uccYi"
+        />
+      </div>
+    </div>
+    <button
+      class="sc-furwcr TlLRf"
+      type="submit"
+    >
+      Submit
+    </button>
+  </form>
+</DocumentFragment>
+`;

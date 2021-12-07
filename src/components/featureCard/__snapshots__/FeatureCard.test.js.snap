@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FeaturesCard should match snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="lazyload-wrapper "
+  >
+    <div
+      class="lazyload-placeholder"
+      style="height: 30px;"
+    />
+  </div>
+</DocumentFragment>
+`;
