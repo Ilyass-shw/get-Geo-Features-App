@@ -1,67 +1,58 @@
-# Go Features Application :rocket:
-
-
-![Screenshot](Screenshot.png)
-
+# Go Features Application 
 ## Overview
 
-This coding challenge consists of a single page web application that:
-- Fetches osm data of a location given with the coordinates as (geolocation box)
-- Converts the data into GeoJSON
-- Displays the dataset on a map
-- Code Quality
-- Mocking and Data Validation
-- Unite testing
+This one page application :
+- prompts user to provide geo box coordinates either via a form, or using a selection method through a map.
+- makes a call to open street map api .
+- gathers information in "osm" format.
+- converts data to "GeoJSON" using "osmtogeojson" .
+- displays the data both on a map, and via a list of features.
+- is tested using unit and integration tests.
 
-[Checkout the demo](https://coding--challenge.herokuapp.com/)
+[Check out demo](https://ecstatic-northcutt-6f4f16.netlify.app/)
 
 ## Technologies used
 
-- React v17.0.1
-- Redux v4.0.5
-- React-redux v7.2.2
-- Redux-thunk v2.3.0
-- Redux-devtools-extension v2.13.8
-- Tailwindcss v1.9.6
-- React-icons v4.2.0
-- Uuid: v8.3.2
-- Express v4.17.1
-- Axios v0.21.1
-- Leaflet v1.7.1
-- React-leaflet v3.1.0
-- Geojson-flip v1.0.0
-- Osmtogeojson v3.0.0-beta.4
-- Concurrently v6.0.2
-- Nodemon v2.0.7
-
-## Setup :hammer_and_wrench:
-
+- @reduxjs/toolkit: "^1.6.2",
+- @testing-library/jest-dom: "^4.2.4",
+- @testing-library/user-event: "^7.2.1",
+- cypress: "^9.1.1",
+- leaflet: "^1.7.1",
+- leaflet-area-select: "^1.0.5",
+- osmtogeojson: "^3.0.0-beta.4",
+- react: "^17.0.2",
+- react-dom: "^17.0.2",
+- react-hook-form: "^7.21.0",
+- react-json-view: "^1.21.3",
+- react-lazyload: "^3.2.0",
+- react-leaflet: "^3.2.2",
+- react-redux: "^7.2.6",
+- react-scripts: "4.0.3",
+- styled-components: "^5.3.3",
+- uuid: "^8.3.2"
+## Setup 
 To run the app locally, clone the repo and install the app using:
 
 ```
-  $ git clone https://github.com/guarmo/coding-challenge.git
-  $ cd coding-challenge
-  $ cd client
+  $ git clone https://github.com/Ilyass-shw/get-Geo-Features-App.git
+  $ cd get-Geo-Features-App
   $ npm install
-  $ cd ..
-  $ npm install
-  $ npm run dev
+  $ npm start
 ```
 
-## Contributors :sparkler:
+To run react testing library tests:
 
-This project is designed and developed by [Armando Guarino](https://armandoguarino.dev)
+```
+  $ npm run test
+```
 
-## Contributing
+To run Cypress tests:
 
-Thanks for your interest in contributing! There are many ways to contribute to this project. Get [started here](CONTRIBUTING.md).
+```
+  $ npm run e2e
+```
+## Wishlist
 
-Wishlist:
 
-- Implement backend validation on routes
 - Improve GUI
-- Add further Unite Testing
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE.md).
+- Add more tests
